@@ -11,7 +11,7 @@ const CardPromo = ({ discount, fullPrice, title }) => {
         height={300}
       />
       <div className={styles.info}>
-        <h3>Ofera Exclusiva</h3>
+        <h3>Oferta Exclusiva</h3>
         <div className={styles.priceCard}>
           <div>-{discount}%</div>
           <div>
@@ -19,7 +19,13 @@ const CardPromo = ({ discount, fullPrice, title }) => {
             <h4>R${(fullPrice - fullPrice * (discount / 100)).toFixed(2)}</h4>
           </div>
         </div>
-        <Button>Adicionar ao carrinho</Button>
+        <Button>Adicionar ao carrinho
+          <img src="/src/assets/cart-plus.svg" alt="icone de carrinho e compra" width="24" height="22">
+
+          </img>
+        </Button>
+        
+      
       </div>
     </div>
   );

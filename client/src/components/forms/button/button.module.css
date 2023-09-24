@@ -1,22 +1,18 @@
 .button{
-    padding: 15px 5px;
+    padding: 15px 10px;
     border-radius: 10px;
     background: #549300;
     border: 0;
     font-weight: 700;
-    font-size: 12px;
+    font-size: 11px;
     color: #fff;
     text-transform: uppercase;
     cursor: pointer;
-
-/* REMOVER */
-    text-align: center;
+    align-items: center;
 }
+
 
 .button:hover{
     background: #477d00;
 }
 
-.fullwidth{
-    width: 100%;
-}
