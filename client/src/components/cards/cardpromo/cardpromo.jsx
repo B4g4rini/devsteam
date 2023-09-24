@@ -20,8 +20,8 @@ const CardPromo = ({ discount, fullPrice, title }) => {
           </div>
         </div>
         <Button>Adicionar ao carrinho
-          <img src="/src/assets/cart-plus.svg" alt="icone de carrinho e compra" width="24" height="22">
 
+          <img src="/src/assets/cart-plus.svg" alt="icone de carrinho e compra" width="24" height="22">
           </img>
         </Button>
         
