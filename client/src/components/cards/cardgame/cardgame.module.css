@@ -2,6 +2,7 @@
   background: #2983aa;
   width: 1000px;
   flex-shrink: 0;
+  margin: 0px;
 }
 
 .CardGame img {
@@ -28,7 +29,7 @@
 }
 
 .game {
-  padding: 4px;
+  padding: 2px;
   color: #fff;
   float: right;
   font-size: 16px;
@@ -63,7 +64,7 @@
   font-weight: 700;
   padding-left: 3px;
   margin-top: 0px;
-  padding-top: 50px;
+  padding-top: 65px;
  
 
 

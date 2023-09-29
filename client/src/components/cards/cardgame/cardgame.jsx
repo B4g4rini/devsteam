@@ -8,7 +8,7 @@ const CardGame = () => {
     <div className={styles.CardGame}>
       <div className={styles.game}>
         <h2>Counter strike: Global offensive</h2>
-      <h1>99,90</h1>
+      <h1>R$99.90</h1>
       </div>
       <div className={styles.Categorias}>
         <h3>Ação, estratégia, multijogador</h3>
