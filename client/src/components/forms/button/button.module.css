@@ -1,18 +1,26 @@
-.button{
-    padding: 15px 10px;
-    border-radius: 10px;
-    background: #549300;
-    border: 0;
-    font-weight: 700;
-    font-size: 11px;
-    color: #fff;
-    text-transform: uppercase;
-    cursor: pointer;
-    align-items: center;
+.button {
+  display: flex;
+  justify-content: center;
+  float: right;
+
+  align-items: center;
+  margin: 30px;
+  margin-right: 1px;
+  width: 80%;
+
+  background: #549300;
+
+  padding: 15px 22px;
+  border-radius: 10px;
+  border: 0;
+  font-weight: 700;
+  font-size: 11px;
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+  align-items: center;
 }
 
-
-.button:hover{
-    background: #477d00;
+.button:hover {
+  background: #477d00;
 }
-

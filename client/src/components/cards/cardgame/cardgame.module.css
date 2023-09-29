@@ -1,73 +1,70 @@
 .CardGame {
-  background: #2983AA;
+  background: #2983aa;
   width: 1000px;
   flex-shrink: 0;
-  }
-
-
-
-.CardGame img{
-    object-fit: cover;
-    height: 70%;
-
-
-
 }
 
-.CardGame div:first-child{
+.CardGame img {
+  height: 100%;
+}
+
+.CardGame div:first-child {
   width: 225px;
   height: 37px;
   flex-shrink: 0;
   width: 60%;
-
-
-
-  
-
 }
 
-.CardGame div:last-child{
-  display: inline;
-  flex-direction: column;
-  align-items: right;
-  padding: 1px;
-  width: 60%;
+.CardGame div:last-child {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
   float: right;
-  width: 45%;
-  
-} 
-
-.CardGame div:last-child p{
-  color: #a8a8a8;
-text-decoration-line: line-through ;
-font-size: 13px;
+  width: 34%;
+  align-items: center;
+  margin-top: 55px;
+  margin-right: 20px;
+  margin-bottom: 0;
 }
 
-
-
-.game{
-  color: #FFF;
+.game {
+  padding: 4px;
+  color: #fff;
   float: right;
-  position: relative;
-font-family: Inter;
-font-size: 16px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-text-transform: capitalize;
-
- 
-}
-
-.CardGame div:last-child h4{
-  color: #C7C7C7;
-  position: relative;
-  float: left;
-  font-family: Inter;
   font-size: 16px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 700;
   line-height: normal;
   text-transform: capitalize;
 }
 
+.CardGame div:last-child p {
+  color: #a8a8a8;
+  text-decoration-line: line-through;
+  font-size: 13px;
+}
+
+.Categorias h3 {
+  color: #c7c7c7;
+  float: left;
+  position: absolute;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+  padding-top: 35px;
+  padding-left: 400px;
+}
+.game h1{
+  color: #beeb14;
+  font-size: 32px;
+  font-weight: 700;
+  padding-left: 3px;
+  margin-top: 0px;
+  padding-top: 50px;
+ 
+
+
+}
